@@ -1,0 +1,18 @@
+1) Operativsystemer
+alternativ 1 og 2
+
+2) fork()
+alternativ 1 og 4
+
+3) Schedulering
+alternativ 3, 4 (og 2)
+er litt usikker på 2. Selvom det finnes en clock interrupt, så kblir det ikke tatt skedulering
+avgjørelser innen selve interrupt prosessesn. Etter interrupt prosessen, så kjører
+prosessen som kjørte før interrupten skjedde. Basert på hvordan alternativet ble presentert kan vi si at ikke-preemptive
+skedulering forhindrer at en prosess avbrytes av en interrupt. Selvom en interrupt skjer, så kjører den opprinnelige programmet videre
+etter interrupten
+
+4) Minne i C
+alternativ 2 og 5
+Synes at alternativ en til tre må bli formulert bedre. Jeg antok at dere mente at addressen til numbers[4]
+ligger 4 bytes etter numbers[3] i minnet.
